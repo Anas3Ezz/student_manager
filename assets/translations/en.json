@@ -1,0 +1,113 @@
+{
+  "app_title": "Student Manager",
+  "nav": {
+    "students": "Students",
+    "subjects": "Subjects",
+    "settings": "Settings"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "all": "All",
+    "optional": "Optional"
+  },
+  "students": {
+    "title": "Students",
+    "add": "Add student",
+    "edit": "Edit student",
+    "search_hint": "Search students",
+    "empty": "No students yet.\nAdd your first student to start logging sessions.",
+    "no_results": "No students match your search.",
+    "name": "Name",
+    "phone": "Phone",
+    "notes": "Notes",
+    "delete_title": "Delete student?",
+    "delete_message": "This student and all of their sessions will be deleted permanently.",
+    "deleted": "Student deleted",
+    "saved": "Student saved",
+    "count": {
+      "one": "1 student",
+      "other": "{} students"
+    }
+  },
+  "subjects": {
+    "title": "Subjects",
+    "add": "Add subject",
+    "edit": "Edit subject",
+    "empty": "No subjects yet.\nAdd the subjects you teach.",
+    "name": "Subject name",
+    "color": "Color",
+    "manage": "Manage",
+    "student_subjects": "Subjects",
+    "no_student_subjects": "No subjects assigned yet.",
+    "pick_title": "Subjects for this student",
+    "none_created": "You haven't created any subjects yet.",
+    "go_to_subjects": "Go to Subjects",
+    "students_section": "Students",
+    "no_students": "No students are studying this subject yet.",
+    "recent_sessions": "Recent sessions",
+    "delete_title": "Delete subject?",
+    "delete_message": "All sessions recorded for this subject will be deleted too.",
+    "deleted": "Subject deleted",
+    "no_sessions": "No sessions recorded for this subject yet."
+  },
+  "session": {
+    "log": "Log session",
+    "edit": "Edit session",
+    "subject": "Subject",
+    "date": "Date",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "rating": "How did it go?",
+    "rating_value": "{} of 5 stars",
+    "notes": "Review",
+    "notes_hint": "What did you cover? How did the student do?",
+    "no_subjects": "This student has no subjects yet. Pick one to start logging sessions.",
+    "history": "Sessions",
+    "empty_month": "No sessions this month.",
+    "count": {
+      "one": "1 session",
+      "other": "{} sessions"
+    },
+    "saved": "Session saved",
+    "deleted": "Session deleted",
+    "delete_title": "Delete session?",
+    "delete_message": "This session and its review will be deleted.",
+    "previous_month": "Previous month",
+    "next_month": "Next month",
+    "log_short": "Log",
+    "rating_hint": "Tap a star to rate",
+    "rating_labels": {
+      "1": "Needs work",
+      "2": "Fair",
+      "3": "Good",
+      "4": "Very good",
+      "5": "Excellent"
+    },
+    "no_notes": "No review written"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "mode_system": "System",
+    "mode_light": "Light",
+    "mode_dark": "Dark",
+    "color": "Theme color",
+    "palette_blue": "Blue",
+    "palette_green": "Green",
+    "palette_purple": "Purple",
+    "palette_orange": "Orange",
+    "language": "Language",
+    "palette_pink": "Pink"
+  },
+  "errors": {
+    "database": "Something went wrong while saving your data. Please try again.",
+    "not_found": "This item no longer exists.",
+    "empty_name": "Please enter a name.",
+    "name_too_long": "The name is too long.",
+    "invalid_rating": "Please choose a rating from 1 to 5 stars.",
+    "future_date": "The session date can't be in the future."
+  }
+}
